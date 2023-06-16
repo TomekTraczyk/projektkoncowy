@@ -9,3 +9,6 @@ phases:
             - echo Installing Composer Dependencies on `date`
             - mkdir ./var
             - composer install -o --no-progress --no-suggest
+artifacts:
+    files:
+        - '**/*'
